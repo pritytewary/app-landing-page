@@ -25,7 +25,7 @@ export default function Navbar({ links, logoUri, button }: NavbarProps) {
 
   return (
     <Section className="flex justify-between items-center py-4">
-      <div className="flex gap-4 items-center">
+      <div className="flex gap-14 items-center">
         <img src={logoUri} alt="" />
 
         <div className="lg:flex gap-6 hidden">
@@ -40,9 +40,12 @@ export default function Navbar({ links, logoUri, button }: NavbarProps) {
       <div className="hidden lg:block">
         <Link
           href={button.link}
-          className={buttonVariants({
-            size: "lg",
-          })}
+          className={cn(
+            buttonVariants({
+              size: "lg",
+            }),
+            "uppercase"
+          )}
         >
           {button.text}
         </Link>
@@ -71,7 +74,10 @@ export default function Navbar({ links, logoUri, button }: NavbarProps) {
             ))}
           </div>
 
-          <Link href={button.link} className={cn(buttonVariants({}), "w-full")}>
+          <Link
+            href={button.link}
+            className={cn(buttonVariants({}), "w-full uppercase")}
+          >
             {button.text}
           </Link>
         </PopoverContent>

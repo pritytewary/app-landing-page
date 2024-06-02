@@ -13,7 +13,7 @@ export function Section({
 }) {
   return (
     <section className="flex items-center justify-center w-full">
-      <div className={cn("flex flex-wrap w-full max-w-7xl px-4", className)}>
+      <div className={cn("flex flex-wrap w-full max-w-7xl px-6", className)}>
         {children}
       </div>
     </section>

@@ -24,12 +24,12 @@ export default function Footer({
   copyrightText,
 }: FooterProps) {
   return (
-    <Section className="pt-[5vh] gap-10">
+    <Section className="pt-[5vh] gap-20">
       <div className="mb-6 lg:mb-0 w-full lg:w-max">
         <div className="flex items-center mb-4">
           <img src={logoUri} alt="Logo" className="h-8 mr-2" />
         </div>
-        <div className="text-gray-700 mb-2 space-y-2">
+        <div className="text-muted-forground mb-2 space-y-2">
           <div className="flex items-center">
             <MailIcon className="material-icons text-red-600 mr-2" />
             <a href={`mailto:${email}`}>{email}</a>
@@ -45,7 +45,7 @@ export default function Footer({
         {links.map((section, index) => (
           <div key={index}>
             <h4 className="text-lg font-semibold mb-4">{section.title}</h4>
-            <ul className="text-gray-700 space-y-2">
+            <ul className="text-muted-forground space-y-2">
               {section.items.map((item, itemIndex) => (
                 <li key={itemIndex}>
                   <a href={item.link}>{item.text}</a>
@@ -58,7 +58,7 @@ export default function Footer({
         {showNewsletter && (
           <div>
             <h4 className="text-lg font-semibold mb-4">Newsletter</h4>
-            <p className="text-gray-700 mb-4">Stay Up To Date</p>
+            <p className="text-muted-forground mb-4">Stay Up To Date</p>
             <div className="flex gap-2 w-full flex-wrap">
               <input
                 type="email"
@@ -72,7 +72,7 @@ export default function Footer({
         )}
       </div>
 
-      <div className="pb-6 border-t border-gray-200 pt-6 text-center text-gray-500 text-sm w-full">
+      <div className="pb-6 border-t border-gray-200 pt-6 text-center text-muted-forground text-sm w-full">
         {copyrightText}
       </div>
     </Section>

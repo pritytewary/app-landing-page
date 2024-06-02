@@ -35,13 +35,11 @@ function Feature1({
         <div className="flex flex-col gap-5">
           {featureItems.map((f) => (
             <div key={f.id} className="flex flex-col gap-2">
-              <p className="font-semibold text-lg text-[#000000] flex gap-2 items-center">
+              <p className="font-semibold text-xl flex gap-2 items-center">
                 {f.title}
               </p>
 
-              <p className="font-medium text-lg text-opacity-[50%]">
-                {f.content}
-              </p>
+              <p className="text-lg text-muted-foreground">{f.content}</p>
             </div>
           ))}
         </div>
@@ -87,7 +85,7 @@ function Feature2({
             {featureTitle}
           </p>
 
-          <p className="font-medium text-lg">{featureContent}</p>
+          <p className="text-muted-foreground text-lg">{featureContent}</p>
         </div>
       </div>
 

@@ -12,7 +12,7 @@ const homeData: HomeData = {
     logoUri: "/images/logo.svg",
     button: {
       link: "https://youtube.com",
-      text: "Download Now",
+      text: "Download",
     },
     links: [
       { text: "Home", href: "#" },
@@ -32,7 +32,7 @@ const homeData: HomeData = {
         text: (
           <>
             Get Started
-            <HiArrowLongRight className="text-white ml-1" size={25} />
+            <HiArrowLongRight className="text-white ml-2" size={25} />
           </>
         ),
         type: "primary",
@@ -42,7 +42,7 @@ const homeData: HomeData = {
         link: "youtube.com",
         text: (
           <>
-            <BsPlayCircle className="mr-5" size={25} />
+            <BsPlayCircle className="mr-2" size={25} />
             Watch Video
           </>
         ),

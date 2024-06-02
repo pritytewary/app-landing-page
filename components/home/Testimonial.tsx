@@ -33,7 +33,7 @@ export default function Testimonial({
   return (
     <Section className="items-center flex flex-col lg:flex-row py-[5vh]">
       <div className="w-full justify-center items-center flex flex-col gap-2">
-        <h3 className="uppercase text-gray-500 w-full text-center lg:w-max lg:text-left">
+        <h3 className="uppercase text-muted-forground w-full text-center lg:w-max lg:text-left">
           {subHeading}
         </h3>
         <h2 className="text-5xl font-bold mb-4 w-full text-center lg:w-max lg:text-left">
@@ -52,7 +52,7 @@ export default function Testimonial({
       <div className="w-full lg:w-1/2 pt-[5vh] lg:pt-[12vh] text-center lg:text-left">
         <div className="min-h-[28vh]">
           <p className="text-3xl font-semibold mb-2">{title}</p>
-          <p className="text-gray-700 text-lg mb-4">"{content}"</p>
+          <p className="text-muted-forground text-lg mb-4">"{content}"</p>
         </div>
 
         <div className="flex justify-center lg:justify-start space-x-2 mt-10">
