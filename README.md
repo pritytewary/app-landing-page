@@ -1,3 +1,6 @@
+![image](https://github.com/pritytewary/app-landing-page/assets/135534603/dd78a25c-25de-4a90-aeba-6c40d5e5d24b)
+
+
 # App landing page
 
 ## Features
