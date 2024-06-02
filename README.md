@@ -1,4 +1,4 @@
-![image](https://github.com/pritytewary/app-landing-page/assets/135534603/dd78a25c-25de-4a90-aeba-6c40d5e5d24b)
+![image](https://github.com/pritytewary/app-landing-page/assets/135534603/deef05ce-10f7-440f-9d79-f0db144bfc53)
 
 
 # App landing page
