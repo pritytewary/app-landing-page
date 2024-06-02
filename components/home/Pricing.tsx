@@ -29,8 +29,12 @@ export default function Pricing({ heading, subHeading, items }: PricingProps) {
   return (
     <Section className="py-[5vh]">
       <div className="w-full space-y-2">
-        <h3 className="text-lg text-red-500 uppercase">{subHeading}</h3>
-        <h2 className="text-5xl font-bold">{heading}</h2>
+        <h3 className="text-lg text-red-500 uppercase w-full text-center lg:w-max lg:text-left">
+          {subHeading}
+        </h3>
+        <h2 className="text-5xl font-bold w-full text-center lg:w-max lg:text-left">
+          {heading}
+        </h2>
       </div>
 
       <div

@@ -1,5 +1,6 @@
 import { Layout } from "../layout";
 import Feature, { FeatureProps } from "./Features";
+import Footer, { FooterProps } from "./Footer";
 import Hero, { HeroProps } from "./Hero";
 import Navbar, { NavbarProps } from "./Navbar";
 import Pricing, { PricingProps } from "./Pricing";
@@ -11,6 +12,7 @@ export type HomeData = {
   pricing: PricingProps;
   navBar: NavbarProps;
   testimonial: TestimonialProps;
+  footer: FooterProps;
 };
 
 export type HomeProps = {
@@ -31,6 +33,8 @@ export default function Home({ data }: HomeProps) {
       <Pricing {...data.pricing} />
 
       <Testimonial {...data.testimonial} />
+
+      <Footer {...data.footer} />
     </Layout>
   );
 }

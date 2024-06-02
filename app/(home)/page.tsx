@@ -196,6 +196,40 @@ const homeData: HomeData = {
       },
     ],
   },
+  footer: {
+    logoUri: "/images/logo.svg",
+    email: "help@frybix.com",
+    phone: "+12344567889",
+    links: [
+      {
+        title: "Links",
+        items: [
+          { text: "Home", link: "#" },
+          { text: "About Us", link: "#" },
+          { text: "Bookings", link: "#" },
+          { text: "Blog", link: "#" },
+        ],
+      },
+      {
+        title: "Legal",
+        items: [
+          { text: "Terms Of Use", link: "#" },
+          { text: "Privacy Policy", link: "#" },
+          { text: "Cookie Policy", link: "#" },
+        ],
+      },
+      {
+        title: "Product",
+        items: [
+          { text: "Take Tour", link: "#" },
+          { text: "Live Chat", link: "#" },
+          { text: "Reviews", link: "#" },
+        ],
+      },
+    ],
+    showNewsletter: true,
+    copyrightText: "Copyright © 2022 Uifry.Com All Rights Reserved",
+  },
 };
 
 export default function HomePage() {

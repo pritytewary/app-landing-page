@@ -28,14 +28,17 @@ export default function Testimonial({
     setCurrentTestimonial(index);
   };
 
-  const { author, authorPictureUri, title, content } =
-    testimonials[currentTestimonial];
+  const { author, title, content } = testimonials[currentTestimonial];
 
   return (
     <Section className="items-center flex flex-col lg:flex-row py-[5vh]">
       <div className="w-full justify-center items-center flex flex-col gap-2">
-        <h3 className="uppercase text-gray-500">{subHeading}</h3>
-        <h2 className="text-5xl font-bold mb-4">{heading}</h2>
+        <h3 className="uppercase text-gray-500 w-full text-center lg:w-max lg:text-left">
+          {subHeading}
+        </h3>
+        <h2 className="text-5xl font-bold mb-4 w-full text-center lg:w-max lg:text-left">
+          {heading}
+        </h2>
       </div>
 
       <div className="hidden lg:block lg:w-1/2">
