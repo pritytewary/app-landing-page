@@ -3,10 +3,15 @@
 ## Features
 
 - Reusable component
-- Content programatically added, so highly customizable
+- Content programmatically added, so highly customizable
 - Great design
 - High performant
 - Responsive
+
+## Customization configuration
+![image](https://github.com/pritytewary/app-landing-page/assets/135534603/1d997d6f-a565-43a1-abde-10cdc24f1ca5)
+![image](https://github.com/pritytewary/app-landing-page/assets/135534603/5c84a01c-4e87-4f02-ab0c-22889e2435d5)
+
 
 ## Getting Started
 
