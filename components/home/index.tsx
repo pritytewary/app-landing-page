@@ -1,14 +1,16 @@
+import { Layout } from "../layout";
 import Feature, { FeatureProps } from "./Features";
 import Hero, { HeroProps } from "./Hero";
-import { Layout } from "../layout";
 import Navbar, { NavbarProps } from "./Navbar";
 import Pricing, { PricingProps } from "./Pricing";
+import Testimonial, { TestimonialProps } from "./Testimonial";
 
 export type HomeData = {
   hero: HeroProps;
   features: FeatureProps[];
   pricing: PricingProps;
   navBar: NavbarProps;
+  testimonial: TestimonialProps;
 };
 
 export type HomeProps = {
@@ -27,6 +29,8 @@ export default function Home({ data }: HomeProps) {
       ))}
 
       <Pricing {...data.pricing} />
+
+      <Testimonial {...data.testimonial} />
     </Layout>
   );
 }

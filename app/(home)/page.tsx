@@ -161,6 +161,41 @@ const homeData: HomeData = {
       },
     ],
   },
+  testimonial: {
+    heading: "What Our Users Say About Us?",
+    subHeading: "TESTIMONIAL",
+    imageUri: "/images/testimonial.svg",
+    testimonials: [
+      {
+        author: "Nick Jonas",
+        authorPictureUri: "https://randomuser.me/api/portraits/men/1.jpg",
+        title: "The Best Financial Accounting App Ever!",
+        content:
+          "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Acuamsan, Ultricies. In Ultrices Malesuada Elit Mauris Etiam Odio. Duis Tristique Lacus, Et Blandit Viverra Nisl Velit. Sed Mattis Rhoncus, Diam Suspendisse Sit Nunc, Gravida Eu. Lectus Eget Eget Ac Dolor Neque Lorem Sapien, Suspendisse Aliquam.",
+      },
+      {
+        author: "John Doe",
+        authorPictureUri: "https://randomuser.me/api/portraits/men/2.jpg",
+        title: "Excellent Customer Support!",
+        content:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.",
+      },
+      {
+        author: "Jane Smith",
+        authorPictureUri: "https://randomuser.me/api/portraits/women/1.jpg",
+        title: "Highly Recommend This App!",
+        content:
+          "Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.",
+      },
+      {
+        author: "Emma Brown",
+        authorPictureUri: "https://randomuser.me/api/portraits/women/2.jpg",
+        title: "A Game Changer for My Business!",
+        content:
+          "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lacinia lorem id risus varius sed mollis magna vestibulum. Vestibulum lacinia arcu eget nulla.",
+      },
+    ],
+  },
 };
 
 export default function HomePage() {

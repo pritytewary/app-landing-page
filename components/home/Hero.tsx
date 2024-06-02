@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Section } from "../layout";
-import { Button, buttonVariants } from "../ui/button";
+import { buttonVariants } from "../ui/button";
 import { cn } from "@/lib/utils";
 
 export type HeroProps = {
@@ -25,7 +25,7 @@ export default function Hero({
 }: HeroProps) {
   return (
     <Section>
-      <div className="w-full lg:w-1/2 pt-[5vh] lg:pt-[16vh]">
+      <div className="w-full lg:w-1/2 pt-[5vh] lg:pt-[12vh]">
         <div className="max-w-3xl gap-6 flex flex-col">
           <h1 className="font-bold text-5xl lg:text-6xl">{heading}</h1>
           <p className="font-semibold text-lg text-opacity-50 text-black">
