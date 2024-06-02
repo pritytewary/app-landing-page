@@ -52,7 +52,9 @@ export default function Testimonial({
       <div className="w-full lg:w-1/2 pt-[5vh] lg:pt-[12vh] text-center lg:text-left">
         <div className="min-h-[28vh]">
           <p className="text-3xl font-semibold mb-2">{title}</p>
-          <p className="text-muted-forground text-lg mb-4">"{content}"</p>
+          <p className="text-muted-forground text-lg mb-4">
+            &quot;{content}&quot;
+          </p>
         </div>
 
         <div className="flex justify-center lg:justify-start space-x-2 mt-10">
