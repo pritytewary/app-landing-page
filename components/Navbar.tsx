@@ -8,7 +8,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 
-type NavbarProps = {
+export type NavbarProps = {
   links: {
     text: string;
     href: string;

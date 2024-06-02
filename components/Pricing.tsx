@@ -12,7 +12,7 @@ import { CheckIcon } from "lucide-react";
 import { Section } from "./Layout";
 import { cn } from "@/lib/utils";
 
-type PricingProps = {
+export type PricingProps = {
   heading: string;
   subHeading: string;
   items: {

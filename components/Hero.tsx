@@ -3,9 +3,9 @@ import { Section } from "./Layout";
 import { Button, buttonVariants } from "./ui/button";
 import { cn } from "@/lib/utils";
 
-type HeroProps = {
-  headline: string;
-  subHeadline: string;
+export type HeroProps = {
+  heading: string;
+  subHeading: string;
   ctaButtons: {
     id: string;
     text: string | React.ReactNode;
@@ -18,18 +18,18 @@ type HeroProps = {
 
 export default function Hero({
   ctaButtons,
-  headline,
+  heading,
   imageUri,
   ribbionUri,
-  subHeadline,
+  subHeading,
 }: HeroProps) {
   return (
     <Section>
       <div className="w-full lg:w-1/2 pt-[5vh] lg:pt-[16vh]">
         <div className="max-w-3xl gap-6 flex flex-col">
-          <h1 className="font-bold text-5xl lg:text-6xl">{headline}</h1>
+          <h1 className="font-bold text-5xl lg:text-6xl">{heading}</h1>
           <p className="font-semibold text-lg text-opacity-50 text-black">
-            {subHeadline}
+            {subHeading}
           </p>
         </div>
 

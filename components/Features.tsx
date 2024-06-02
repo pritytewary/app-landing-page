@@ -12,7 +12,7 @@ type Feature1Props = {
   }[];
 };
 
-export function Feature1({
+function Feature1({
   featureItems,
   heading,
   imageUri,
@@ -59,7 +59,7 @@ type Feature2Props = {
   isReversed?: boolean;
 };
 
-export function Feature2({
+function Feature2({
   featureContent,
   featureTitle,
   heading,
@@ -96,4 +96,26 @@ export function Feature2({
       </div>
     </Section>
   );
+}
+
+export type FeatureProps =
+  | {
+      id: string;
+      variant: "feature1";
+      data: Feature1Props;
+    }
+  | {
+      id: string;
+      variant: "feature2";
+      data: Feature2Props;
+    };
+
+export default function Feature({ data, variant }: FeatureProps) {
+  if (variant === "feature1") {
+    return <Feature1 {...data} />;
+  } else if (variant === "feature2") {
+    return <Feature2 {...data} />;
+  }
+
+  return null;
 }
