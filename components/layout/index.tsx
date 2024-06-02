@@ -1,7 +1,13 @@
 import { cn } from "@/lib/utils";
 
-export function Layout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+export function Layout({
+  children,
+  className = "",
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return <main className={cn("w-full", className)}>{children}</main>;
 }
 
 export function Section({

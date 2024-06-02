@@ -21,7 +21,7 @@ export type HomeProps = {
 
 export default function Home({ data }: HomeProps) {
   return (
-    <Layout>
+    <Layout className="bg-[url('/images/background.svg')] bg-no-repeat">
       <Navbar {...data.navBar} />
 
       <Hero {...data.hero} />
