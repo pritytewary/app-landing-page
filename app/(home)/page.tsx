@@ -5,7 +5,7 @@ import { PiCubeTransparent } from "react-icons/pi";
 import { MdCircleNotifications } from "react-icons/md";
 import { MdStars } from "react-icons/md";
 
-import Home, { HomeData } from "@/components/Home";
+import Home, { HomeData } from "@/components/home";
 
 const homeData: HomeData = {
   navBar: {

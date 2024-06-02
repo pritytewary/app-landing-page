@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { Button, buttonVariants } from "./ui/button";
-import { Section } from "./Layout";
+import { Button, buttonVariants } from "../ui/button";
+import { Section } from "../layout";
 import { IoIosMenu, IoIosClose } from "react-icons/io";
-import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
+import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 

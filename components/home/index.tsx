@@ -1,6 +1,6 @@
 import Feature, { FeatureProps } from "./Features";
 import Hero, { HeroProps } from "./Hero";
-import { Layout } from "./Layout";
+import { Layout } from "../layout";
 import Navbar, { NavbarProps } from "./Navbar";
 import Pricing, { PricingProps } from "./Pricing";
 

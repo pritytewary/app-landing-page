@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { Section } from "./Layout";
+import { Section } from "../layout";
 
 type Feature1Props = {
   imageUri: string;

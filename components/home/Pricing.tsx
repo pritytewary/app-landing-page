@@ -9,7 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { CheckIcon } from "lucide-react";
-import { Section } from "./Layout";
+import { Section } from "../layout";
 import { cn } from "@/lib/utils";
 
 export type PricingProps = {

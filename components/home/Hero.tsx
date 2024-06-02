@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Section } from "./Layout";
-import { Button, buttonVariants } from "./ui/button";
+import { Section } from "../layout";
+import { Button, buttonVariants } from "../ui/button";
 import { cn } from "@/lib/utils";
 
 export type HeroProps = {
